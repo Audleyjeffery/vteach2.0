@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+   min-width: 100vh;
+   width: 100%;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* nav section */
+#side-bar{
+    background: #c0cdf9;
+    width: 16rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+.side-bar1 .first-link li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(14, 13, 13);
+
+}
+
+.side-bar1 .first-link{
+    margin-top: 6rem;
+}
+
+.side-bar1 .secound-link li a{
+    display: flexflex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(43, 42, 42);
+}
+.secound-link li{
+    list-style: none;
+}
+.first-link li{
+    list-style: none;
+}
+.link_linktag{
+    display: flex;
+    gap: 20px;
+}
+
+
+.side-bar1 .secound-link{
+    margin-top: 11rem;
+    padding: 2rem 0;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+/*header */
+.hearder{
+    width: 100%;
+    background-color: black;
+    z-index: 50;
+    text-align: center;
+    color: snow;
+    overflow: hidden;
+    position: sticky;
+} 
+
+#vlogo{
+    width: 100px;
+    height: 100px;
+}
+.logo_nd_lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+.hearder h5{
+    padding-top: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.logo_nd_lang button{
+    padding: 10px 18px 10px 18px ;
+    text-transform: capitalize;
+}
+/*discover teachers */
+.section_teachers{
+border-radius: 10px;
+}
+.section_teachers h2{
+text-transform: capitalize;
+padding-top: 20px;
+}
+
+.pro{
+    width: 100px;
+    height: 60px;
+    border:  2px solid #c0cdf9;
+    object-fit: cover;
+}
+.mother{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* .dicover-teacher{
+    display: none;
+    transition: 0.30s all ease;
+} */
+.profile_picture{
+    
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.child{
+    padding: 10px;
+}
+.pay_now{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    flex-direction: column;
+}
+
+.play_btn{
+    width: 40px;
+    height: 40px;
+}

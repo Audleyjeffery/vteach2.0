@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="side_nav">
+                <div id="side-bar">
+    
+                    <div class="side-bar1">
+               
+                         <ul class="first-link">
+                            <div class="link_linktag">
+                                <img src="images/dash.png" alt="" class="icon">
+                                <li><a href="#">Dashboard</a></li>
+        
+                            </div><br>
+                            <div class="link_linktag">
+                                <img src="images/courses.png" alt="" class="icon">
+                                <li><a href="#">My Course</a></li>
+                            </div><br>
+                            <div class="link_linktag">
+                                <img src="images/settings 3.png" alt="" class="icon">
+                                <li><a href="#">Resources</a></li>
+                            </div><br>
+                            <div class="link_linktag">
+                                <img src="images/sub2.png" alt="" class="icon">
+                                <li><a href="#">Subscription</a></li>
+                            </div><br>
+                            <div class="link_linktag">
+                                <img src="images/cert.png" alt="" class="icon">
+                                <li><a href="#">Certification</a></li>
+                            </div><br>
+                         </ul>
+               
+                       <ul class="secound-link">
+                        <div class="link_linktag">
+                            <img src="images/settings.png" alt="" class="icon">
+                            <li><a href="#">settings</a></li>
+                        </div><br>
+                        <div class="link_linktag">
+                            <img src="images/settings 2.png" alt="" class="icon">
+                            <li><a href="#">log out</a></li>
+                        </div><br>
+                       </ul>
+                    </div>
+               </div>
+            </div>
+            <div class="secound_section">
+                <div class="payement_opt">
+                    <h2>payment</h2>
+                    <h4>Choose a payment method</h4>
+                    <div class="p-cards">
+                        <div class="p-card" id="visa-card">
+                            <div class="float_left"></div>
+                            <div class="center">
+                                <div class="visa">visa</div>
+                                <P>pay with your card</P>
+                            </div>
+                        </div>
+                        <div class="p-card">
+                            <div class="float_left"></div>
+                            <div class="center">
+                                <div class="visa">Ussd</div>
+                                <P>pay with Ussd code</P>
+                            </div>
+                        </div>
+                        <div class="p-card transfer" id="transfer">
+                            <div class="float_left"></div>
+                            <div class="center">
+                                <div class="visa trans">Transfer</div>
+                                <P>pay with bank transfer</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="">
+                    <h2>credit card infomation</h2>
+                    <div class="input-fields">
+                        <div class="card-name">
+                            <input type="text" placeholder="Card Holder Name" required>
+                        </div>
+                        <div class="card-pin">
+                            <input type="text" placeholder="Card Number" required>
+                        </div>
+                        <div class="pin1date">
+                            <div class="card-pin">
+                                <input type="text" placeholder="CVV" required>
+                            </div>
+                            <div class="ex-date">
+                                <input type="text" placeholder="Expiry Date" required>
+                            </div>
+                        </div>
+                        <div class="card-name">
+                            <input type="text" placeholder="Amount" required>
+                        </div>
+                        <div class="card-pin">
+                            <input type="text" placeholder="pin" required>
+                        </div>
+                        <div class="checkout">
+                            <label><input type="checkbox"><h5>Offline-course</h5></label>  
+                            <label><input type="checkbox"><h5>Live-class</h5></label>  
+                            <label><input type="checkbox"><h5>Online-course</h5></label>  
+                        </div>
+                        <div class="submit">
+                            <button class="submit_btn">Confirm Payment</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="bank_trans">
+                        <h2>Transfer information</h2>
+                        <div class="input-fields">
+                            <div class="card-name">
+                                <input type="text" placeholder="Amount">
+                            </div>
+                            <div class="checkout">
+                                <label><input type="checkbox"><h5>Offline-course</h5></label>  
+                                <label><input type="checkbox"><h5>Live-class</h5></label>  
+                                <label><input type="checkbox"><h5>Online-course</h5></label>  
+                            </div>
+                            <div  id="confirm">
+                                <button class="submit_btn">Confirm Payment</button>
+                            </div>
+                            <div class="message">
+                                <h3>Tranfer the the given amount to the account number below</h3>
+                                <div class="account_info">
+                                    <h4><span>1442212280</span> | MoniePoint | Vteach</h4>
+                                    <img src="" alt="" class="clip-btn">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="hearder">
+            <h5>2024 vteach/educational enrichment for everyone</h5>
+            <div class="logo_nd_lang">
+                    <img src="images/vteach.png" alt="" id="vlogo" >
+                    <button class="lang">english</button>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

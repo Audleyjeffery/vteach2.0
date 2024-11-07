@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+a{
+    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.links a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    text-transform: capitalize;
+    font: 3rem;
+    margin-right: 2rem;
+}
+
+/* all about side bar   */
+
+#side-bar{
+    background: #c0cdf9;
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.side-bar1 .first-link li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(14, 13, 13);
+}
+.side-bar1 .first-link li a i{
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+.side-bar1 .first-link{
+    margin-top: 6rem;
+}
+
+.side-bar1 .secound-link li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(43, 42, 42);
+    margin: 5px 0;
+    
+}
+
+.side-bar1 .secound-link{
+    margin-top: 11rem;
+    padding: 2rem 0;
+}
+
+
+/* all about the main body  */
+
+.input{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 0rem; */
+    padding: 2rem 5rem;
+} 
+
+.input input{
+    padding: 10px;
+    padding-right: 10rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: large;
+} 
+
+
+
+ /* all about the main nav  */
+ .main{
+    margin-left: 18rem;
+    display: flex;
+ }
+.main h1{
+    font-size: 45px;
+    padding: 1rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main p{
+    width: 80%;
+    font-weight: bold;
+    font-size: large;
+    color: #666565;
+}
+.main2{
+    display: flex;
+    gap: 1rem;
+    margin-right: 5rem;
+}
+.main .main2 button{
+    padding: 0 40px;
+    height: 50px;
+    margin-top: 3rem;
+    
+}
+.main-btn1{
+    /* font-weight: bold; */
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    background: #1640d6;
+    font-size: larger;
+}
+.main-btn2{
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    color: #1640d6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: larger;
+}
+
+
+
+/* all about the mian nav2  */
+.pricing-table {
+    display: flex;
+    gap: 2rem;
+    margin-left: 17rem;
+    padding: 4rem 2rem;
+    box-shadow: 1px 50px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.pricing-card {
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding:  2rem 5rem;
+    text-align: center;
+    width: 25rem;
+    box-sizing: border-box;
+}
+
+.pricing-plan {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.pricing-price {
+    font-size: 28px;
+    color: #333;
+    margin: 10px 0;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.pricing-description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-features {
+    list-style-type: none;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 10px 20px;
+    color: #333;
+}
+
+.pricing-features li {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #333;
+    margin: 20px 0;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.professional {
+    background-color: #001f52;
+    color: #ffffff;
+}
+
+.professional .pricing-plan,
+.professional .pricing-price,
+.professional .pricing-description,
+.professional .pricing-features li {
+    color: #ffffff;
+}
+
+.professional .buy-button {
+    background-color: #ff0080;
+}
+
+
+
+
+
+
+
+/* everything about the footer  */
+
+.contain{
+    font-family: sans-serif;
+    font-weight: bold;
+    background: #4a4a4a;
+    padding: 20px 0;
+    margin-top: 2rem;
+}
+
+.contain .last-sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 18px;   
+    margin-bottom: 4rem;
+    color: white;
+    margin-left: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contain button{
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid rgb(247, 244, 244);
+    margin-left: 80rem;
+    padding: 7px 30px;
+    background: rgb(187, 184, 184);
+}

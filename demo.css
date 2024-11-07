@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffe400;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating_css{
+    width: 400px;
+    height: 250px;
+    background: #101012;
+    padding: 20px;
+}
+
+.rating_css div{
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.rating_css input{
+    display: none;
+}
+.rating_css input + label{
+    font-size: 50px;
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+}
+.rating_css input:checked + label ~ label{
+    color: #838383;
+}
+.rating_css label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}

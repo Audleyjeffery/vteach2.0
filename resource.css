@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* nav section */
+#side-bar{
+    background: #c0cdf9;
+    width: 16rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+.side-bar1 .first-link li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(14, 13, 13);
+
+}
+
+.side-bar1 .first-link{
+    margin-top: 6rem;
+}
+
+.side-bar1 .secound-link li a{
+    display: flexflex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(43, 42, 42);
+}
+.secound-link li{
+    list-style: none;
+}
+.first-link li{
+    list-style: none;
+}
+.link_linktag{
+    display: flex;
+    gap: 20px;
+}
+
+.side-bar1 .secound-link{
+    margin-top: 11rem;
+    padding: 2rem 0;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*header */
+.hearder{
+    width: 100%;
+    background-color: black;
+    z-index: 50;
+    text-align: center;
+    color: snow;
+    overflow: hidden;
+    position: sticky;
+} 
+
+#vlogo{
+    width: 100px;
+    height: 100px;
+}
+.logo_nd_lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+.hearder h5{
+    padding-top: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.logo_nd_lang button{
+    padding: 10px 18px 10px 18px ;
+    text-transform: capitalize;
+}
+
+/* resources */
+
+.resource-section{
+    height: 100vh;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 100;
+    overflow-y: scroll;
+}
+
+.resource-section h1,h3{
+    text-align: center;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.h2{
+    border: 1px solid gray;
+    padding: 2px;
+    width: 10%;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-weight: 200;
+    margin: 10px;
+} 
+.h2 h2{
+    font-size: 18px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.card h2{
+    font-size: 18px;
+}
+.card h4{
+    margin-top: 30px;
+}
+.card{
+    width: 25%;
+    background-color: black;
+    color: snow;
+    height: 50vh;
+    border-radius: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.pic{
+    width: 100%;
+    height: 30vh;
+}
+.pic img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text-area{
+    padding: 20px 20px 20px 20px;
+}

@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+   min-width: 100vh;
+   width: 100%;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+/* nav section */
+#side-bar{
+    background: #c0cdf9;
+    width: 16rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+.side-bar1 .first-link li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(14, 13, 13);
+
+}
+
+.side-bar1 .first-link{
+    margin-top: 6rem;
+}
+
+.side-bar1 .secound-link li a{
+    display: flexflex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(43, 42, 42);
+}
+.secound-link li{
+    list-style: none;
+}
+.first-link li{
+    list-style: none;
+}
+.link_linktag{
+    display: flex;
+    gap: 20px;
+}
+
+
+.side-bar1 .secound-link{
+    margin-top: 11rem;
+    padding: 2rem 0;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+/* course review */
+.course_review{
+    height: 100vh;
+}
+.A1t{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    text-transform: capitalize;
+    padding-top: 80px;
+    /* box-shadow:  -3px -3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2); */
+}
+.right{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow:  -3px -3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.left{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow:  -3px -3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.review_card{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: #c0cdf9;
+    /* width: 80%; */
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow:  -3px -3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.review_profile h2{
+    padding-block: 20px;
+}
+.review_profile{
+    overflow-y: scroll;
+    stroke-width: 100px;
+    height: 500px;
+}
+.review_card .user_pic{
+    height: 160px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px 20px;
+}
+.name_time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name_time h5{
+    opacity: 0.2;
+    padding-right: 20px;
+}
+.name_time{
+    padding-block: 6px;
+}
+.user_info h4{
+    padding-bottom: 6px;
+}
+
+.user_info h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.user_info .stars{
+    padding-block: 6px;
+}
+.stars div{
+    color: #ffe400;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.stars input{
+    display: none;
+}
+.profile_cards.stars input + label{
+    font-size: 18px;
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+}
+.stars input:checked + label ~ label{
+    color: #838383;
+}
+.stars label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+/* right section */
+.right_section{
+    height: 100vh;
+}
+.input_section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px 50px 30px 100px;
+}
+.input_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.inputbar input{
+    padding: 8px;
+    border-radius: 20px;
+}
+.bell{
+    width: 30px;
+    height: 30px;
+}
+.profile_cards{
+    box-shadow:  -3px -3px 3px rgba(0, 0, 0, 0.2),
+    -3px -3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2),
+    3px 3px 3px rgba(0, 0, 0, 0.2);
+    text-transform: capitalize;
+    /* width: 60%; */
+    font-weight: 300;
+    margin-right: 16px;
+}
+
+.shapes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shape_right{
+    background-color: #c0cdf9;
+    height: 100px;
+    width: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.shape_left{
+    background-color: #c0cdf9;
+    height: 100px;
+    width: 100px;
+    border-bottom-left-radius: 100%;
+}
+
+.user_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.user_img img{
+    height: 100px;
+    width: 100px;
+}
+.user_details{
+    text-align: center;
+}
+span{
+    color: #1640d6;
+}
+.location,.email,.tel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.profile_cards i{
+    font-size: 20px;
+}
+.top_student{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-block: 6px;
+}
+.top_student img{
+    height: 50px;
+    height: 50px;
+}
+.tex_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.user_details h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.user_details h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.profile_cards .stars{
+    padding-bottom: 50px;
+}
+
+
+
+/*header */
+.hearder{
+    width: 100%;
+    background-color: black;
+    z-index: 50;
+    text-align: center;
+    color: snow;
+    overflow: hidden;
+    position: sticky;
+} 
+
+#vlogo{
+    width: 100px;
+    height: 100px;
+}
+.logo_nd_lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+.hearder h5{
+    padding-top: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.logo_nd_lang button{
+    padding: 10px 18px 10px 18px ;
+    text-transform: capitalize;
+}
